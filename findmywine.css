@@ -1,0 +1,157 @@
+h1 {
+  color: #663300;
+  font-size: 32px;
+  font-weight: 300;
+  text-align: center;
+}
+
+h2 {
+  color: #333;
+  font-family: 'Varela Round', sans-serif;
+  font-size: 22px;
+  font-weight: 100;
+  text-align: center;
+}
+
+h3 {
+  color: #663300;
+  font-family: 'Oswald', sans-serif;
+  font-size: 18px;
+}
+
+table {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.search_submit_type_here{
+  font-family: 'Varela Round', sans-serif;
+  font-size: 20px;
+  padding-left: 1px;
+  padding-right: 1px;
+  padding-top: 8px;
+  padding-bottom: 6px;
+  border-radius: 10px;
+}
+
+input[type=text]{
+  padding-left: 12px;
+  padding-bottom: 8px;
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+
+input::-webkit-calendar-picker-indicator {
+  display: none;
+}
+
+.findmywine_input_box_label{
+  font-family: 'Varela Round', sans-serif;
+  font-size: 18px;
+  color: #663300;
+  text-align: right;
+}
+
+td {
+  text-align: right;
+}
+
+.findmywine_input_box{
+    font-size: 18px;
+    padding-left: 1px;
+    padding-right: 1px;
+    padding-top: 4px;
+    padding-bottom: 3px;
+    border-radius: 10px;
+}
+
+::placeholder{
+  font-style: italic;
+  font-size: 14px;
+  font-weight: 50px;
+}
+
+.buttons{
+  text-align: center;
+}
+
+.findmywine_submit_button{
+  float: center;
+  font-family: 'Varela Round', sans-serif;
+  font-size: 22px;
+  text-align: center;
+  color: #663300;
+  border: 3px solid #663300;
+  background-color: white;
+  width: 120px;
+  margin-top: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 8px;
+  border-radius: 12px;
+}
+
+.findmywine_submit_button:hover {
+  color: white;
+  background-color: #663300;
+}
+
+table.search_terms {
+  border-collapse: collapse;
+  margin-top: 20px;
+  margin-left: 48px;
+  margin-bottom: 10px;
+}
+
+table.search_terms td{
+  height: 35px;
+  width: 90px;
+  text-transform: capitalize;
+  color: #663300;
+  font-family: 'Varela Round', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+table.search_terms #search_terms_input{
+  width: 400px;
+}
+
+table#results_table {
+  border-collapse: collapse;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+table#results_table th, table#results_table td {
+  border-bottom: 1px solid #663300;
+}
+
+table#results_table th{
+  height: 30px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+table#results_table td{
+  height: 50px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+/*start of CSS for JavaScript that allows for sorting table results*/
+.tablesorter-default .header,
+.tablesorter-default .tablesorter-header {
+	background-image: url("up-down-arrow-image.jpg");
+	background-position: center right;
+	background-repeat: no-repeat;
+	cursor: pointer;
+	padding: 4px 20px 4px 4px;
+}
+/*end of CSS for JavaScript that allows for sorting table results*/
